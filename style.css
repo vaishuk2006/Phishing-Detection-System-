@@ -1,0 +1,97 @@
+
+.stApp {
+    background: #080d18;
+    color: #f1f5f9;
+}
+
+.block-container {
+    max-width: 1150px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.hero {
+    background: linear-gradient(135deg, #13243b, #111827 65%, #142c3a);
+    border: 1px solid #263b54;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+
+.hero h1 {
+    color: #f8fafc;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #a9bad0;
+    font-size: 16px;
+}
+
+.metric-card {
+    background: #111a2b;
+    border: 1px solid #26354a;
+    border-radius: 15px;
+    padding: 20px;
+    min-height: 115px;
+}
+
+.metric-label {
+    color: #a7b5ca;
+    font-size: 14px;
+}
+
+.metric-value {
+    color: #f8fafc;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 8px;
+}
+
+.section-card {
+    background: #101827;
+    border: 1px solid #29374d;
+    border-radius: 16px;
+    padding: 22px;
+    margin: 12px 0;
+}
+
+.stTextInput input {
+    background: #111c2d;
+    color: white;
+    border: 1px solid #3b4c64;
+    border-radius: 10px;
+}
+
+
+/* Blue Scan URL button */
+.stButton button,
+.stFormSubmitButton button {
+    background: linear-gradient(90deg, #007bff, #0056d2) !important;
+    color: white !important;
+    border: 1px solid #1685ff !important;
+    border-radius: 12px !important;
+    font-weight: 800 !important;
+    padding: 0.7rem 1.3rem !important;
+    box-shadow: 0 4px 14px rgba(0, 123, 255, 0.25);
+    transition: all 0.2s ease;
+}
+
+/* Blue hover effect */
+.stButton button:hover,
+.stFormSubmitButton button:hover {
+    background: #0069d9 !important;
+    border-color: #60a5fa !important;
+    box-shadow: 0 0 18px rgba(0, 123, 255, 0.5);
+    transform: translateY(-2px);
+}
+
+
+div[data-testid="stAlert"] {
+    border-radius: 12px;
+}
+
+footer {
+    visibility: hidden;
+}
