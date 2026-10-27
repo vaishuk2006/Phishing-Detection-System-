@@ -1,41 +1,32 @@
-# 🛡️ PhishGuard – Phishing URL Detection System
+# 🛡️ PhishGuard – Phishing Detection System
 
 ## 📌 About
-PhishGuard is a cybersecurity web application developed using Python and Flask to analyze URLs and help identify potentially suspicious websites.
+PhishGuard is a Python-based web application that analyzes URLs to identify potential phishing links and suspicious websites. It helps users recognize common URL warning signs.
 
 ## ✨ Features
-- URL scanning and analysis
-- Risk assessment
-- Interactive dashboard
-- Scan results display
-- Dark-themed user interface
+- Scan URLs for suspicious indicators.
+- Classify URLs as low risk, suspicious, or high risk.
+- Display detected warning signs and safety suggestions.
+- Modern cybersecurity dashboard with Streamlit.
 
 ## 🛠️ Technologies Used
 - Python
-- Flask
-- HTML
-- CSS
-- Git and GitHub
+- Streamlit
+- HTML/CSS
+- Python URL parsing and validation libraries
 
-## ⚙️ How to Run
+## 🚀 Installation and Usage
 
-1. Install dependencies:
+1. Clone or download this repository.
+2. Install the required library:
 
    pip install -r requirements.txt
 
-2. Run the application:
- 
-   python app.py
-   
-3. Open `http://127.0.0.1:5000/` in your browser.
+3. Run the application:
 
-## 🎯 Objective
-To improve phishing awareness and help users identify potentially unsafe URLs.
+   python -m streamlit run app.py
 
-## 🔮 Future Scope
-- Machine-learning-based detection
-- Improved threat intelligence
-- Scan history and downloadable reports
+4. Open the local URL shown in the terminal.
 
 ## ⚠️ Disclaimer
-PhishGuard is an educational project. Scan results are not a guarantee that a website is safe or malicious.
+This project uses rule-based URL analysis for educational purposes. Results are indicative only and do not guarantee that a website is safe or malicious.
